@@ -61,9 +61,15 @@ class Cat(object):
     def __str__(self):
         return "Cat"
 
+class Bird(object):
+    def speak(self):
+        return "warble"
+
+    def __str__(self):
+        return "Bird"
 
 def random_animal():
-    return random.choice([Dog, Cat])()
+    return random.choice([Dog, Cat, Bird])()
 
 
 if __name__ == "__main__":
