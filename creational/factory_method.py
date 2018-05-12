@@ -29,7 +29,7 @@ https://sourcemaking.com/design_patterns/factory_method
 Creates objects without having to specify the exact class.
 """
 
-
+# My Chinese translator
 class ChineseGetter:
 
     def __init__(self):

@@ -61,6 +61,7 @@ class Cat(object):
     def __str__(self):
         return "Cat"
 
+# my bird
 class Bird(object):
     def speak(self):
         return "warble"
